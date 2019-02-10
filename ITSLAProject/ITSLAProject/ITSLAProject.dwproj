@@ -43,6 +43,10 @@
       <Name>DimEntity.dim</Name>
       <FullPath>DimEntity.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimStoreEntGeo.dim</Name>
+      <FullPath>DimStoreEntGeo.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
