@@ -39,6 +39,10 @@
       <Name>DimEntity.dim</Name>
       <FullPath>DimEntity.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DDimMachine.dim</Name>
+      <FullPath>DDimMachine.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
