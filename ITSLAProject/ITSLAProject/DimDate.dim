@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1868" scrolltop="-1927" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6932" y="8996" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1331" scrolltop="-2024" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6932" y="9507" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
             </font>
@@ -19,9 +19,18 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4057" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" left="20" top="0" logicalid="0" controlid="1" masterid="0" hint1="0" hint2="0" width="0" height="0" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="0" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="0" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000d90f000088130000" />
+              <ddsxmlobjectstreaminitwrapper binary="000c00000000000000000000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="0" top="-1640" logicalid="24" controlid="25" masterid="0" hint1="0" hint2="0" width="3810" height="7346" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000e20e0000b21c0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -47,19 +56,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-1868</Value>
+      <Value>-1331</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-1927</Value>
+      <Value>-2024</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>20</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-1640</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -79,29 +88,53 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
+            <Shape Id="Fiscal Month" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Month" />
+              </Attributes>
+              <Position x="258" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Quarter" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Quarter" />
+              </Attributes>
+              <Position x="497" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Half Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Half Year" />
+              </Attributes>
+              <Position x="736" y="20" />
+            </Shape>
+            <Shape Id="Fiscal Year" Expanded="false">
+              <Attributes>
+                <Attribute Id="Fiscal Year" />
+              </Attributes>
+              <Position x="975" y="20" />
+            </Shape>
             <Shape Id="Calendar Month" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Month" />
               </Attributes>
-              <Position x="258" y="20" />
+              <Position x="258" y="71" />
             </Shape>
             <Shape Id="Calendar Quarter" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Quarter" />
               </Attributes>
-              <Position x="497" y="20" />
+              <Position x="497" y="71" />
             </Shape>
             <Shape Id="Calendar Half Year" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Half Year" />
               </Attributes>
-              <Position x="736" y="20" />
+              <Position x="736" y="71" />
             </Shape>
             <Shape Id="Calendar Year" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Year" />
               </Attributes>
-              <Position x="975" y="20" />
+              <Position x="975" y="71" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -155,6 +188,10 @@
         <AttributeRelationship dwd:design-time-name="e8467a54-d04c-4e0b-84fe-c9582ecb2969">
           <AttributeID>Calendar Month</AttributeID>
           <Name>Calendar Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b877a6cf-f0c1-4bbc-80fc-846565ca6c65">
+          <AttributeID>Fiscal Month</AttributeID>
+          <Name>Fiscal Month</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -339,6 +376,116 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="287687af-e5a6-4c66-a599-5cba5f5d1b96">
+      <ID>Fiscal Year</ID>
+      <Name>Fiscal Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c45ccb1-3eb4-4d41-a623-ccc5b3780af9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d24d144b-edc1-491a-8685-8e54bfa8ba03">
+            <TableID>olap_vDimDate</TableID>
+            <ColumnID>FiscalYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="04f6e7af-3dff-49cf-ad92-b5cd713d9579">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="79ec7016-7073-45b6-b4c2-8f2eba4a8a2e">
+          <TableID>olap_vDimDate</TableID>
+          <ColumnID>FiscalYearLabel</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d4462714-11ee-4648-b34d-3fc4d19bead7">
+      <ID>Fiscal Half Year</ID>
+      <Name>Fiscal Half Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e13ea203-a26b-4173-9855-8c94f0181992">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6f78c99-a406-472b-af27-089f79173a74">
+            <TableID>olap_vDimDate</TableID>
+            <ColumnID>FiscalHalfYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ceaee27a-c04c-40b6-b11b-f2a589f4f247">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b8ceb94d-2b7e-48df-a596-a95214ebbb44">
+          <TableID>olap_vDimDate</TableID>
+          <ColumnID>FiscalHalfYearLabel</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9b2e4f3f-4a80-42b3-a204-91644e9d97ed">
+          <AttributeID>Fiscal Year</AttributeID>
+          <Name>Fiscal Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f76e309-f6cd-4028-93b1-bb5d6d9dea21">
+      <ID>Fiscal Quarter</ID>
+      <Name>Fiscal Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="df345992-27f7-46c8-bc5a-084090d8a720">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffc03c53-5a66-419e-b1f2-156dc20476c2">
+            <TableID>olap_vDimDate</TableID>
+            <ColumnID>FiscalQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="141fb3dc-359c-42c1-8ada-d0be4ff4dfb3">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5209fef0-9fdd-4806-940d-97c9419c9fcd">
+          <TableID>olap_vDimDate</TableID>
+          <ColumnID>FiscalQuarterLabel</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fd129c85-5a11-44d2-bc4f-c172f16e1ca1">
+          <AttributeID>Fiscal Half Year</AttributeID>
+          <Name>Fiscal Half Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3dd84f5d-37af-4632-a87f-72cd201d5c31">
+      <ID>Fiscal Month</ID>
+      <Name>Fiscal Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="657428c5-fb88-4663-b31a-050b131eaef9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1e2a43e-fbec-4aca-9f73-731e0d9133e7">
+            <TableID>olap_vDimDate</TableID>
+            <ColumnID>FiscalMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="f2388d0a-e31e-4d33-a01b-45a0c7bf5cd8">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9402f595-c72c-4cd7-9092-df3696768517">
+          <TableID>olap_vDimDate</TableID>
+          <ColumnID>FiscalMonthLabel</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="815e33ce-c153-46c9-a0ad-d2345195efc6">
+          <AttributeID>Fiscal Quarter</AttributeID>
+          <Name>Fiscal Quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
     <Hierarchy dwd:design-time-name="082e1747-6d92-415b-922d-b2bb51ff243d">
@@ -392,6 +539,62 @@
             <Translation dwd:design-time-name="c273d48e-72ff-4e92-a37b-52adcc220776">
               <Language>1045</Language>
               <Caption>Miesiac</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="d7f5a795-7b1b-471c-974c-11e9359becaf">
+      <ID>Hierarchy 1</ID>
+      <Name>Hierarchy 1</Name>
+      <Translations>
+        <Translation dwd:design-time-name="0a639b08-d661-4028-b3f7-c09f83f60fb1">
+          <Language>1045</Language>
+          <Caption>Hierarchia YHQM (Podatkowy)</Caption>
+        </Translation>
+      </Translations>
+      <Levels>
+        <Level dwd:design-time-name="a6ff07da-a60b-4c8f-a07e-f9f4ed62fb6b">
+          <ID>Fiscal Year</ID>
+          <Name>Fiscal Year</Name>
+          <SourceAttributeID>Fiscal Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="e97a2b55-ae65-488f-bc76-fb2d2d81e8c4">
+              <Language>1045</Language>
+              <Caption>RokPodatkowy</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="bdce5608-82e8-4bda-97ef-d517a8622d0c">
+          <ID>Fiscal Half Year</ID>
+          <Name>Fiscal Half Year</Name>
+          <SourceAttributeID>Fiscal Half Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="b43d3469-2550-4cb0-ab41-951771ce5085">
+              <Language>1045</Language>
+              <Caption>PolroczePodatkowe</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="d6e0c1d2-df43-486a-b742-8a05a5938f7d">
+          <ID>Fiscal Quarter</ID>
+          <Name>Fiscal Quarter</Name>
+          <SourceAttributeID>Fiscal Quarter</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="ef5d563c-a3cc-4eb4-b399-79f00e6ffce1">
+              <Language>1045</Language>
+              <Caption>KwartalPodatkowy</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="4f11d890-f81b-402f-bbc6-cb6f8775f8f0">
+          <ID>Fiscal Month</ID>
+          <Name>Fiscal Month</Name>
+          <SourceAttributeID>Fiscal Month</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="97ec78d8-770d-41d3-ae98-1f2859f152f8">
+              <Language>1045</Language>
+              <Caption>MiesiacPodatkowy</Caption>
             </Translation>
           </Translations>
         </Level>
