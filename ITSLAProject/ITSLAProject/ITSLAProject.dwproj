@@ -47,6 +47,10 @@
       <Name>DimProduct.dim</Name>
       <FullPath>DimProduct.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimCurrency.dim</Name>
+      <FullPath>DimCurrency.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
