@@ -56,6 +56,16 @@
       <FullPath>WideWorldImportersDSV.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
+  <Roles>
+    <ProjectItem>
+      <Name>Admin.role</Name>
+      <FullPath>Admin.role</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FullReader.role</Name>
+      <FullPath>FullReader.role</FullPath>
+    </ProjectItem>
+  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
