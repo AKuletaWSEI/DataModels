@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ProjectWWI", "ProjectWWI\ProjectWWI.dwproj", "{D671A888-3B3C-4A74-A91B-6104F82398B7}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "WWIProject", "WWIProject\WWIProject.dwproj", "{C53A8462-01C3-4ADB-B249-52D1AB61A2EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D671A888-3B3C-4A74-A91B-6104F82398B7}.Development|Default.ActiveCfg = Development
-		{D671A888-3B3C-4A74-A91B-6104F82398B7}.Development|Default.Build.0 = Development
-		{D671A888-3B3C-4A74-A91B-6104F82398B7}.Development|Default.Deploy.0 = Development
+		{C53A8462-01C3-4ADB-B249-52D1AB61A2EA}.Development|Default.ActiveCfg = Development
+		{C53A8462-01C3-4ADB-B249-52D1AB61A2EA}.Development|Default.Build.0 = Development
+		{C53A8462-01C3-4ADB-B249-52D1AB61A2EA}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5D3D56BF-662C-4A2F-9F90-A72F135E6A5A}
+		SolutionGuid = {18839BEF-C489-4088-ABBA-E1462496B133}
 	EndGlobalSection
 EndGlobal
