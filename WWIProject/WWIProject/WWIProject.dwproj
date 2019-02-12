@@ -6,6 +6,44 @@
     <Name>WWIProject.database</Name>
     <FullPath>WWIProject.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WideWorldImportersCube.cube</Name>
+      <FullPath>WideWorldImportersCube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WideWorldImportersCube.partitions</Name>
+          <FullPath>WideWorldImportersCube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DimCity.dim</Name>
+      <FullPath>DimCity.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimCustomer.dim</Name>
+      <FullPath>DimCustomer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimDate.dim</Name>
+      <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimEmployee.dim</Name>
+      <FullPath>DimEmployee.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimStockItem.dim</Name>
+      <FullPath>DimStockItem.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimSupplier.dim</Name>
+      <FullPath>DimSupplier.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>WideWorldImportersDW.ds</Name>
