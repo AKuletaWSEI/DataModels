@@ -51,6 +51,10 @@
       <Name>DimCurrency.dim</Name>
       <FullPath>DimCurrency.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DimGeography.dim</Name>
+      <FullPath>DimGeography.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
