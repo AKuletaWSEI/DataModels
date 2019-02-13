@@ -918,9 +918,6 @@
             <Measure dwd:design-time-name="ffdc6825-e12a-4558-8f64-9c74d506291d">
               <MeasureID>Quantity - v Fact Sale</MeasureID>
             </Measure>
-            <Measure dwd:design-time-name="6082b7b1-4f4f-421f-8870-772b86b18975">
-              <MeasureID>Unit Price</MeasureID>
-            </Measure>
             <Measure dwd:design-time-name="ea49a31d-6247-4cb5-9efa-b63ad12edf0b">
               <MeasureID>Tax Rate</MeasureID>
             </Measure>
@@ -942,6 +939,28 @@
           </Measures>
         </MeasureGroup>
       </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="04dcf8a0-67ec-44df-a348-900499c17c4f">
+          <Name>[Measures].[UnitProfit]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="4c121030-65e6-4e3d-8158-22bc04b35d66">
+          <Name>Top10ProfitableItems</Name>
+          <Type>Set</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="1b0cb142-8fc9-4a60-b9a4-338a21527d50">
+          <Name>ExistingYear</Name>
+          <Type>Set</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="4168cd0a-e93a-4cc3-8f71-15df44ceb4e2">
+          <Name>[Measures].[UnitPriceExcludingTaxSale]</Name>
+          <Type>Member</Type>
+        </Calculation>
+        <Calculation dwd:design-time-name="3014f79d-2b6b-44a6-92f9-7ff2d26531c4">
+          <Name>[Measures].[UnitPriceIncludingTaxSale]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
     </Perspective>
     <Perspective dwd:design-time-name="5271f73c-103a-4886-828a-b4b6a1bf4380">
       <ID>Perspective 2</ID>
@@ -1255,24 +1274,6 @@
             <Translation dwd:design-time-name="df7533fc-236f-4481-86bb-b7c24bf441cd">
               <Language>1045</Language>
               <Caption>Ilosc</Caption>
-            </Translation>
-          </Translations>
-        </Measure>
-        <Measure dwd:design-time-name="abc8f104-1550-47bb-a87f-a3535f39fa70">
-          <ID>Unit Price</ID>
-          <Name>UnitPrice</Name>
-          <Source dwd:design-time-name="e476b88a-f468-42f1-a9a6-d4cdedd8b4ba">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="01668856-6fdb-4ca3-94fd-9dca752eb0ba">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>UnitPrice</ColumnID>
-            </Source>
-          </Source>
-          <FormatString># ##0.00</FormatString>
-          <Translations>
-            <Translation dwd:design-time-name="2f12ed83-68a9-460d-823e-b5d2bf177a1f">
-              <Language>1045</Language>
-              <Caption>CenaJednostkowa</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1637,4 +1638,85 @@
   <Source dwd:design-time-name="23874d5c-4c7b-43aa-8487-fff867c753a9">
     <DataSourceViewID>WideWorldImportersDSV</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="925947ad-78b6-4a8c-92e7-a2333b05c0e7">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;   
+
+CREATE MEMBER CURRENTCUBE.[Measures].[UnitProfit]
+    AS [Measures].[Profit]/[Measures].[QuantitySale], 
+    FORMAT_STRING = "# ##0.00", 
+    VISIBLE = 1 ,  
+    ASSOCIATED_MEASURE_GROUP = 'v Fact Sale';  
+
+CREATE MEMBER CURRENTCUBE.[Measures].[UnitPriceExcludingTaxSale]
+    AS [Measures].[TotalExcludingTaxSale]/[Measures].[QuantitySale], 
+    FORMAT_STRING = "# ##0.00", 
+    VISIBLE = 1 ,  
+    ASSOCIATED_MEASURE_GROUP = 'v Fact Sale'; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[UnitPriceIncludingTaxSale]
+    AS [Measures].[TotalIncludingTaxSale]/[Measures].[QuantitySale], 
+    FORMAT_STRING = "# ##0.00", 
+    VISIBLE = 1 ,  
+    ASSOCIATED_MEASURE_GROUP = 'v Fact Sale';  
+
+
+</Text>
+        </Command>
+      </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="77578df7-1205-4deb-bc71-098970eeaf1f">
+          <CalculationReference>[Measures].[UnitProfit]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="62fc0256-3863-40d1-a315-393bc81e8793">
+              <Language>1045</Language>
+              <Caption>ZyskJednostkowy</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="45a2b7bc-7f5d-4dd9-b7c4-a844102910a5">
+          <CalculationReference>Top10ProfitableItems</CalculationReference>
+          <CalculationType>Set</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="bb7fd6f9-6ee8-4b9e-87ff-ea9c6cca0867">
+              <Language>1045</Language>
+              <Caption>Top10ZyskownychPozycji</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="9f4c5df2-cbf6-4767-8e10-5536d269466a">
+          <CalculationReference>[Measures].[UnitPriceExcludingTaxSale]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="f7c79332-0419-4891-a6d6-347e253329a7">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowaNetto</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="37609516-c930-4ac4-98f1-b3d4e4435f93">
+          <CalculationReference>[Measures].[UnitPriceIncludingTaxSale]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="34532313-53cc-4298-9161-cb7d2bebc4bd">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowaBrutto</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
+    </MdxScript>
+  </MdxScripts>
 </Cube>
