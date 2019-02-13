@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="44" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="990" scrolltop="3959" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17639" y="9507" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="4743" scrolltop="6971" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17639" y="8343" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCustomer" left="5579" top="7997" logicalid="22" controlid="1" masterid="0" hint1="0" hint2="0" width="3052" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCustomer" left="23941" top="14655" logicalid="21" controlid="1" masterid="0" hint1="0" hint2="0" width="3052" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000ec0b0000e20c0000" />
             </control>
@@ -30,18 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimEmployee" left="0" top="15251" logicalid="23" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1887" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00005f070000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="olap_vDimEmployee" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCity" left="11211" top="7400" logicalid="24" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCity" left="18339" top="7400" logicalid="22" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a40f0000" />
             </control>
@@ -52,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactOrder" left="11470" top="0" logicalid="25" controlid="4" masterid="0" hint1="0" hint2="0" width="3404" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactOrder" left="18137" top="13804" logicalid="23" controlid="3" masterid="0" hint1="0" hint2="0" width="3404" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00004c0d000088130000" />
             </control>
@@ -63,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStockItem" left="21919" top="13804" logicalid="26" controlid="5" masterid="0" hint1="0" hint2="0" width="4427" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStockItem" left="11310" top="16350" logicalid="24" controlid="4" masterid="0" hint1="0" hint2="0" width="4427" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00004b11000088130000" />
             </control>
@@ -74,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="16611" top="21448" logicalid="27" controlid="6" masterid="0" hint1="0" hint2="0" width="3510" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="5400" top="11258" logicalid="25" controlid="5" masterid="0" hint1="0" hint2="0" width="3510" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b60d0000e20c0000" />
             </control>
@@ -85,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="6706" top="4700" logicalid="28" controlid="7" masterid="0" hint1="0" hint2="0" width="6216" height="3797" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="21241" top="15905" logicalid="26" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -98,34 +87,12 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="7105" y="7997" />
-              <point x="7105" y="6499" />
-              <point x="12622" y="6499" />
-              <point x="12622" y="5000" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="3" sourceattachpoint="14" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="23941" y="16304" />
+              <point x="21541" y="16304" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="1101" top="4700" logicalid="29" controlid="8" masterid="0" hint1="0" hint2="0" width="11821" height="11051" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vFactOrder-vDimEmployee]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="1500" y="15251" />
-              <point x="1500" y="10126" />
-              <point x="12622" y="10126" />
-              <point x="12622" y="5000" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="12312" top="4700" logicalid="30" controlid="9" masterid="0" hint1="0" hint2="0" width="1160" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="19440" top="10905" logicalid="27" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -138,14 +105,12 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="12711" y="7400" />
-              <point x="12711" y="6200" />
-              <point x="13172" y="6200" />
-              <point x="13172" y="5000" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19839" y="11404" />
+              <point x="19839" y="13804" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="13972" top="4700" logicalid="31" controlid="10" masterid="0" hint1="0" hint2="0" width="3694" height="17248" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8610" top="12508" logicalid="28" controlid="8" masterid="0" hint1="0" hint2="0" width="9827" height="2996" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -158,14 +123,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="4" sourceattachpoint="2" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="17266" y="21448" />
-              <point x="17266" y="13224" />
-              <point x="14272" y="13224" />
-              <point x="14272" y="5000" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="3" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8910" y="12907" />
+              <point x="13523" y="12907" />
+              <point x="13523" y="15204" />
+              <point x="18137" y="15204" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="13972" top="4700" logicalid="32" controlid="11" masterid="0" hint1="0" hint2="0" width="10560" height="9604" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="15437" top="16554" logicalid="29" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="2696" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -178,14 +143,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="4" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="24132" y="13804" />
-              <point x="24132" y="9402" />
-              <point x="14272" y="9402" />
-              <point x="14272" y="5000" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="23" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15737" y="18850" />
+              <point x="16937" y="18850" />
+              <point x="16937" y="16854" />
+              <point x="18137" y="16854" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="5400" top="13695" logicalid="33" controlid="12" masterid="0" hint1="0" hint2="0" width="3411" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="14491" top="0" logicalid="30" controlid="10" masterid="0" hint1="0" hint2="0" width="3411" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000530d000088130000" />
             </control>
@@ -196,7 +161,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8511" top="18095" logicalid="34" controlid="13" masterid="0" hint1="0" hint2="0" width="8400" height="4852" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8406" top="4700" logicalid="31" controlid="11" masterid="0" hint1="0" hint2="0" width="7540" height="7058" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -209,14 +174,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="12" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="16611" y="22547" />
-              <point x="12711" y="22547" />
-              <point x="12711" y="18395" />
-              <point x="8811" y="18395" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="12" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8805" y="11258" />
+              <point x="8805" y="8129" />
+              <point x="15646" y="8129" />
+              <point x="15646" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="6706" top="10796" logicalid="35" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="16446" top="4700" logicalid="32" controlid="12" masterid="0" hint1="0" hint2="0" width="9421" height="10455" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -229,12 +194,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="12" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="7105" y="11295" />
-              <point x="7105" y="13695" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="10" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="25467" y="14655" />
+              <point x="25467" y="9828" />
+              <point x="16746" y="9828" />
+              <point x="16746" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8511" top="15345" logicalid="36" controlid="15" masterid="0" hint1="0" hint2="0" width="13708" height="1359" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="13124" top="4700" logicalid="33" controlid="13" masterid="0" hint1="0" hint2="0" width="3372" height="12150" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -247,14 +214,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="12" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="21919" y="16304" />
-              <point x="15365" y="16304" />
-              <point x="15365" y="15645" />
-              <point x="8811" y="15645" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="10" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13523" y="16350" />
+              <point x="13523" y="10675" />
+              <point x="16196" y="10675" />
+              <point x="16196" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8511" top="17545" logicalid="37" controlid="16" masterid="0" hint1="0" hint2="0" width="8400" height="4852" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7856" top="4700" logicalid="34" controlid="14" masterid="0" hint1="0" hint2="0" width="7540" height="7058" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -267,34 +234,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="12" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="16611" y="21997" />
-              <point x="12711" y="21997" />
-              <point x="12711" y="17845" />
-              <point x="8811" y="17845" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="10" sourceattachpoint="10" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="8255" y="11258" />
+              <point x="8255" y="8129" />
+              <point x="15096" y="8129" />
+              <point x="15096" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2700" top="15795" logicalid="38" controlid="17" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[vFactSale-vDimEmployee]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="12" sourceattachpoint="13" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="3000" y="16194" />
-              <point x="4200" y="16194" />
-              <point x="4200" y="16195" />
-              <point x="5400" y="16195" />
-            </connector>
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="8511" top="9003" logicalid="39" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="6392" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="16996" top="4700" logicalid="35" controlid="15" masterid="0" hint1="0" hint2="0" width="3243" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -307,14 +254,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="12" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="11211" y="9402" />
-              <point x="10011" y="9402" />
-              <point x="10011" y="15095" />
-              <point x="8811" y="15095" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="10" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="19839" y="7400" />
+              <point x="19839" y="6200" />
+              <point x="17296" y="6200" />
+              <point x="17296" y="5000" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactPurchase" left="22521" top="21204" logicalid="40" controlid="19" masterid="0" hint1="0" hint2="0" width="3223" height="3787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactPurchase" left="5687" top="16956" logicalid="36" controlid="16" masterid="0" hint1="0" hint2="0" width="3223" height="3787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000970c0000cb0e0000" />
             </control>
@@ -325,7 +272,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="19821" top="22698" logicalid="41" controlid="20" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6756" top="14057" logicalid="37" controlid="17" masterid="0" hint1="0" hint2="0" width="842" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -338,12 +285,14 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="19" sourceattachpoint="19" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="20121" y="23097" />
-              <point x="22521" y="23097" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="16" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7155" y="14556" />
+              <point x="7155" y="15756" />
+              <point x="7298" y="15756" />
+              <point x="7298" y="16956" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="23733" top="18305" logicalid="42" controlid="21" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8610" top="18451" logicalid="38" controlid="18" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -356,9 +305,41 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="19" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="24132" y="18804" />
-              <point x="24132" y="21204" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="16" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11310" y="18850" />
+              <point x="10110" y="18850" />
+              <point x="10110" y="18849" />
+              <point x="8910" y="18849" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimSupplier" left="14901" top="9335" logicalid="39" controlid="19" masterid="0" hint1="0" hint2="0" width="3387" height="3128" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d0000380c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="olap_vDimSupplier" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6448" top="9400" logicalid="40" controlid="20" masterid="0" hint1="0" hint2="0" width="8753" height="7856" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[vFactPurchase-vDimSupplier]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="16" sourceattachpoint="10" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14901" y="9799" />
+              <point x="6748" y="9799" />
+              <point x="6748" y="16956" />
             </connector>
           </ddscontrol>
         </dds>
@@ -378,15 +359,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>990</Value>
+      <Value>4743</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>3959</Value>
+      <Value>6971</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>5400</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -469,15 +450,6 @@
         <Attribute dwd:design-time-name="78dd3c5f-7dbc-45cf-a498-19b8c839a4ee">
           <AttributeID>Size</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0eb0e8c5-914e-4eb8-bc98-de357bd9589d">
-          <AttributeID>Tax Rate</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d2bed4ee-c0f6-4df2-8ddc-7670ed56dad9">
-          <AttributeID>Unit Price</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="3cbc7c71-f1c4-4988-a2eb-2e46021d3575">
-          <AttributeID>Typical Weight Per Unit</AttributeID>
-        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="5b1df6e1-bd6f-44e2-9e37-3fef5cf1ba7c">
@@ -515,19 +487,6 @@
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
-    </Dimension>
-    <Dimension dwd:design-time-name="c722d82d-8fa2-4503-9540-3d745dd030c4">
-      <ID>DimEmployee</ID>
-      <Name>DimEmployee</Name>
-      <DimensionID>DimEmployee</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="cfe6a1b0-33a9-49ac-89a9-b0543b57bd17">
-          <AttributeID>Employee Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="e84819a2-541f-4e46-bb83-baad2e4fa3fa">
-          <AttributeID>Is Salesperson</AttributeID>
-        </Attribute>
-      </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="94a430ac-176d-48f4-b61d-02f11ee921a0">
       <ID>Invoice Date</ID>
@@ -600,6 +559,28 @@
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="fe18a631-2d97-4b22-a3eb-fe3289801f43">
+      <ID>DimSupplier</ID>
+      <Name>DimSupplier</Name>
+      <DimensionID>DimSupplier</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a426edb4-1031-4cf8-a336-7c8f7bf3267f">
+          <AttributeID>Supplier Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b65701d7-9a1a-4f44-8b9d-b42eaefb3644">
+          <AttributeID>Category</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb1fd28e-55cd-40c1-a2c6-55bdc292d518">
+          <AttributeID>Primary Contact</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9535f6db-1905-4c44-ad04-11aa18b0e347">
+          <AttributeID>Payment Days</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="45576668-52f5-4032-8e74-c194e497cfb5">
+          <AttributeID>Postal Code</AttributeID>
+        </Attribute>
+      </Attributes>
     </Dimension>
   </Dimensions>
   <CubePermissions>
@@ -683,15 +664,6 @@
             <Attribute dwd:design-time-name="dce3eb5d-1824-483d-a661-f27343ba90ba">
               <AttributeID>Size</AttributeID>
             </Attribute>
-            <Attribute dwd:design-time-name="c55ae910-41f4-46f4-b824-dc88954b3791">
-              <AttributeID>Tax Rate</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="42b92b2f-86c8-4a64-9f8c-8ce6577e2bb5">
-              <AttributeID>Unit Price</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="1a96ebc9-e462-47cc-bd67-6eec27fa975c">
-              <AttributeID>Typical Weight Per Unit</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension dwd:design-time-name="40ddc6d6-af29-4357-b8d8-2e7f68193a4c">
@@ -727,17 +699,6 @@
               <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
           </Hierarchies>
-        </Dimension>
-        <Dimension dwd:design-time-name="fa458f82-a20b-4400-b940-0bad26b94862">
-          <CubeDimensionID>DimEmployee</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="f94a91af-3815-433b-9b08-3296f80f7e06">
-              <AttributeID>Employee Key</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="29541c64-9d33-4e32-bbdf-a322d5808552">
-              <AttributeID>Is Salesperson</AttributeID>
-            </Attribute>
-          </Attributes>
         </Dimension>
       </Dimensions>
       <MeasureGroups>
@@ -810,15 +771,6 @@
             <Attribute dwd:design-time-name="daeea892-3b22-4892-bc29-66429787a820">
               <AttributeID>Size</AttributeID>
             </Attribute>
-            <Attribute dwd:design-time-name="eb65eab0-4a7c-4bb9-8d3a-684bce210192">
-              <AttributeID>Tax Rate</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="1bf4524e-90c5-423b-96ef-6bed32105270">
-              <AttributeID>Unit Price</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="3fd173e0-9001-4248-8c4d-e6d89f9dd842">
-              <AttributeID>Typical Weight Per Unit</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension dwd:design-time-name="48f09732-d08a-471e-8cf7-13102fd3e87e">
@@ -854,17 +806,6 @@
               <HierarchyID>Hierarchy</HierarchyID>
             </Hierarchy>
           </Hierarchies>
-        </Dimension>
-        <Dimension dwd:design-time-name="8237d5fa-af2f-4f86-b76e-870e680382db">
-          <CubeDimensionID>DimEmployee</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="c5f650e6-9553-417f-bc0c-378c055f8c6b">
-              <AttributeID>Employee Key</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="8c48647b-355f-4acc-8de8-f503e6973ebf">
-              <AttributeID>Is Salesperson</AttributeID>
-            </Attribute>
-          </Attributes>
         </Dimension>
         <Dimension dwd:design-time-name="7fdacb40-d558-4500-9dbb-946ddcdaaf07">
           <CubeDimensionID>Invoice Date</CubeDimensionID>
@@ -917,9 +858,6 @@
           <Measures>
             <Measure dwd:design-time-name="ffdc6825-e12a-4558-8f64-9c74d506291d">
               <MeasureID>Quantity - v Fact Sale</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="ea49a31d-6247-4cb5-9efa-b63ad12edf0b">
-              <MeasureID>Tax Rate</MeasureID>
             </Measure>
             <Measure dwd:design-time-name="e948b632-7858-4e3b-aecc-2a250fcc2add">
               <MeasureID>Total Excluding Tax - v Fact Sale</MeasureID>
@@ -986,15 +924,6 @@
             <Attribute dwd:design-time-name="89ab6c9c-146c-43f6-b922-b531f249c40b">
               <AttributeID>Size</AttributeID>
             </Attribute>
-            <Attribute dwd:design-time-name="a38d0576-402f-4c2e-b1f6-c05633198553">
-              <AttributeID>Tax Rate</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="9f0e4589-0038-492f-b93d-844a3c2db045">
-              <AttributeID>Unit Price</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="377687b9-1fe8-40fd-b210-974708b57caa">
-              <AttributeID>Typical Weight Per Unit</AttributeID>
-            </Attribute>
           </Attributes>
         </Dimension>
         <Dimension dwd:design-time-name="f7720075-8005-417b-8519-5cba28adfc89">
@@ -1019,6 +948,26 @@
             </Hierarchy>
           </Hierarchies>
         </Dimension>
+        <Dimension dwd:design-time-name="6e0e3640-5ea0-44ca-850c-b3b57bb96ea1">
+          <CubeDimensionID>DimSupplier</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d1a3650-0f12-4668-84cb-777f721bbfd5">
+              <AttributeID>Supplier Key</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="2b4c9245-7aac-4a91-ab42-bc63caf2dfef">
+              <AttributeID>Category</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="d3fc5393-0250-44ce-8ea1-19ae2f981ead">
+              <AttributeID>Primary Contact</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="20c52fa8-527b-49c8-a7fd-5440b63ac399">
+              <AttributeID>Payment Days</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="dd475c72-0634-4470-92c9-4d360b8d4ba1">
+              <AttributeID>Postal Code</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <MeasureGroups>
         <MeasureGroup dwd:design-time-name="d60aa89c-575f-4c14-b450-cc8f50caa1c5">
@@ -1036,9 +985,21 @@
             <Measure dwd:design-time-name="b2e9da76-d991-4ecc-892b-f7fe97c175d6">
               <MeasureID>v Fact Purchase Count</MeasureID>
             </Measure>
+            <Measure dwd:design-time-name="4582f750-7315-4eaf-8ac4-63476e2c3143">
+              <MeasureID>Unit Price</MeasureID>
+            </Measure>
+            <Measure dwd:design-time-name="9045af22-fb9d-49cd-a4fe-23298c9a950d">
+              <MeasureID>Recommended Retail Price</MeasureID>
+            </Measure>
           </Measures>
         </MeasureGroup>
       </MeasureGroups>
+      <Calculations>
+        <Calculation dwd:design-time-name="f08a80ab-ffa8-4a56-9605-d2375e8b5dcc">
+          <Name>[Measures].[PricePurchase]</Name>
+          <Type>Member</Type>
+        </Calculation>
+      </Calculations>
     </Perspective>
   </Perspectives>
   <MeasureGroups>
@@ -1066,7 +1027,7 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="0ae29999-8165-4c37-92aa-274c505534bf">
               <Language>1045</Language>
@@ -1084,7 +1045,7 @@
               <ColumnID>TotalExcludingTax</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="fb2fb1e4-4b43-4a71-aff0-48f618e6b67a">
               <Language>1045</Language>
@@ -1102,7 +1063,7 @@
               <ColumnID>TaxAmount</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="d5c275fa-5157-47b5-891a-09620e081fef">
               <Language>1045</Language>
@@ -1122,7 +1083,7 @@
             </Source>
           </Source>
           <Visible>false</Visible>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="bc19a759-3625-4b10-ba4e-74f13da93061">
               <Language>1045</Language>
@@ -1140,7 +1101,7 @@
               <ColumnID>TotalIncludingTax</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="78401a2f-553c-4e2a-82de-cc508a08cbd6">
               <Language>1045</Language>
@@ -1206,24 +1167,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7837b22b-f1af-47a6-afed-6ea305c9e994">
-          <CubeDimensionID>DimEmployee</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="e6ad1bff-72a0-41ed-863c-6bc1ddc3763c">
-              <AttributeID>Employee Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="2f2c9308-af9d-4d66-8907-5328038ebe85">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ebefd352-1a68-4498-a239-200cd4a773d0">
-                    <TableID>olap_vFactOrder</TableID>
-                    <ColumnID>SalespersonKey</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e85e6a14-5ef6-458e-80f8-b7bfb751df50">
           <CubeDimensionID>DimCity</CubeDimensionID>
           <Attributes>
@@ -1269,29 +1212,11 @@
               <ColumnID>Quantity</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="df7533fc-236f-4481-86bb-b7c24bf441cd">
               <Language>1045</Language>
               <Caption>Ilosc</Caption>
-            </Translation>
-          </Translations>
-        </Measure>
-        <Measure dwd:design-time-name="8fcf7b3e-4f47-46e8-93e8-9bfb9a202597">
-          <ID>Tax Rate</ID>
-          <Name>TaxRateSale</Name>
-          <Source dwd:design-time-name="25ddc862-1fbb-46c5-a72f-73c6201a8645">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6d5aa152-3608-4fd8-84bb-24d30f62fa78">
-              <TableID>olap_vFactSale</TableID>
-              <ColumnID>TaxRate</ColumnID>
-            </Source>
-          </Source>
-          <FormatString># ##0.00</FormatString>
-          <Translations>
-            <Translation dwd:design-time-name="5f581168-8080-472a-aabd-0ffb66940613">
-              <Language>1045</Language>
-              <Caption>WysokoscPodatku</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1305,7 +1230,7 @@
               <ColumnID>TotalExcludingTax</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="23dd3a68-a0b3-42fe-81c3-f9810cd9932d">
               <Language>1045</Language>
@@ -1323,7 +1248,7 @@
               <ColumnID>TaxAmount</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="5849e886-66d4-48bf-a4a4-a9e90910706b">
               <Language>1045</Language>
@@ -1341,7 +1266,7 @@
               <ColumnID>Profit</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="437d4cd9-67a7-4121-909a-0e6014bed7ea">
               <Language>1045</Language>
@@ -1359,7 +1284,7 @@
               <ColumnID>TotalIncludingTax</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0.00</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="e958650c-be37-4e2b-aab4-1bbed3642696">
               <Language>1045</Language>
@@ -1379,7 +1304,7 @@
             </Source>
           </Source>
           <Visible>false</Visible>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0.00</FormatString>
           <Translations>
             <Translation dwd:design-time-name="b7c4793e-54cb-45e9-b607-76dedc20b5f5">
               <Language>1045</Language>
@@ -1464,24 +1389,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="40c203ff-bb86-49bb-bbb6-3f26f7b9534a">
-          <CubeDimensionID>DimEmployee</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="a78d6dc4-e072-41f4-b07d-f028499ccea5">
-              <AttributeID>Employee Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="d2dba068-fe6d-40a7-81a6-c4a87cfe5924">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e7fa3aee-b448-4198-9abc-88ebef4ab794">
-                    <TableID>olap_vFactSale</TableID>
-                    <ColumnID>SalespersonKey</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f2561a26-9cd4-4bd3-917f-d4ea68c6f4a5">
           <CubeDimensionID>DimCity</CubeDimensionID>
           <Attributes>
@@ -1527,7 +1434,7 @@
               <ColumnID>OrderedOuters</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="8a136fa3-b9f3-4ac8-9cca-14bf4c39fd5e">
               <Language>1045</Language>
@@ -1545,7 +1452,7 @@
               <ColumnID>OrderedQuantity</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="98f2d554-14c9-4782-950d-d9779122f461">
               <Language>1045</Language>
@@ -1563,7 +1470,7 @@
               <ColumnID>ReceivedOuters</ColumnID>
             </Source>
           </Source>
-          <FormatString># ##0</FormatString>
+          <FormatString>### ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="169fff03-48f0-41c8-84fb-de31fb2a8d12">
               <Language>1045</Language>
@@ -1583,11 +1490,48 @@
             </Source>
           </Source>
           <Visible>false</Visible>
-          <FormatString># ##0</FormatString>
+          <FormatString># ### ##0</FormatString>
           <Translations>
             <Translation dwd:design-time-name="13399976-820e-4cd7-8983-d20abdfe5eb8">
               <Language>1045</Language>
               <Caption>LiczbaWierszy</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="6b5d59ba-e6fb-44c6-a131-dfeb381c840f">
+          <ID>Unit Price</ID>
+          <Name>UnitPricePurchase</Name>
+          <AggregateFunction>Min</AggregateFunction>
+          <Source dwd:design-time-name="beedab9c-456f-4a47-a74d-bee0d78c7dc9">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="836a5351-aa3f-4287-a1e4-c9d401540d91">
+              <TableID>olap_vFactPurchase</TableID>
+              <ColumnID>UnitPrice</ColumnID>
+            </Source>
+          </Source>
+          <FormatString># ### ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="ad2af87e-41a4-4043-9b0b-4e6e38d64e17">
+              <Language>1045</Language>
+              <Caption>CenaJednostkowaZakupu</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+        <Measure dwd:design-time-name="74bbbe34-394b-4394-804f-b4436ea2e8bc">
+          <ID>Recommended Retail Price</ID>
+          <Name>RecommendedRetailPricePurchase</Name>
+          <Source dwd:design-time-name="438fc0d1-0f1c-4428-801e-de2bdadfed29">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="09bf46b5-c051-4c99-9288-ba4e08de817b">
+              <TableID>olap_vFactPurchase</TableID>
+              <ColumnID>RecommendedRetailPrice</ColumnID>
+            </Source>
+          </Source>
+          <FormatString># ### ##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="d3fb2e3c-e5ed-481a-b711-78d417cb3a98">
+              <Language>1045</Language>
+              <Caption>RekomendowanaCenaSprzedazy</Caption>
             </Translation>
           </Translations>
         </Measure>
@@ -1631,6 +1575,24 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e9906093-52fb-4c1e-85e3-f0262ac8149e">
+          <CubeDimensionID>DimSupplier</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e9abf58a-03c3-41d0-bbc1-9bac1f38b26a">
+              <AttributeID>Supplier Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7e7f4a29-d4b4-46ec-b09f-99ae22481eae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c82c30f5-a011-46aa-8ca3-f23df50bde7b">
+                    <TableID>olap_vFactPurchase</TableID>
+                    <ColumnID>SupplierKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
@@ -1655,24 +1617,27 @@ CALCULATE;
 
 CREATE MEMBER CURRENTCUBE.[Measures].[UnitProfit]
     AS [Measures].[Profit]/[Measures].[QuantitySale], 
-    FORMAT_STRING = "# ##0.00", 
+    FORMAT_STRING = "# ### ##0.00", 
     VISIBLE = 1 ,  
     ASSOCIATED_MEASURE_GROUP = 'v Fact Sale';  
 
 CREATE MEMBER CURRENTCUBE.[Measures].[UnitPriceExcludingTaxSale]
     AS [Measures].[TotalExcludingTaxSale]/[Measures].[QuantitySale], 
-    FORMAT_STRING = "# ##0.00", 
+    FORMAT_STRING = "# ### ##0.00", 
     VISIBLE = 1 ,  
     ASSOCIATED_MEASURE_GROUP = 'v Fact Sale'; 
 
 CREATE MEMBER CURRENTCUBE.[Measures].[UnitPriceIncludingTaxSale]
     AS [Measures].[TotalIncludingTaxSale]/[Measures].[QuantitySale], 
-    FORMAT_STRING = "# ##0.00", 
+    FORMAT_STRING = "# ### ##0.00", 
     VISIBLE = 1 ,  
     ASSOCIATED_MEASURE_GROUP = 'v Fact Sale';  
 
-
-</Text>
+CREATE MEMBER CURRENTCUBE.[Measures].[PricePurchase]
+    AS [Measures].[UnitPricePurchase]*[Measures].[OrderedQuantity], 
+    FORMAT_STRING = "# ### ##0.00", 
+    VISIBLE = 1 ,  
+    ASSOCIATED_MEASURE_GROUP = 'v Fact Purchase';  </Text>
         </Command>
       </Commands>
       <CalculationProperties>
@@ -1713,6 +1678,16 @@ CREATE MEMBER CURRENTCUBE.[Measures].[UnitPriceIncludingTaxSale]
             <Translation dwd:design-time-name="34532313-53cc-4298-9161-cb7d2bebc4bd">
               <Language>1045</Language>
               <Caption>CenaJednostkowaBrutto</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="9eec89bc-2858-4213-8d55-35091b83d0a0">
+          <CalculationReference>[Measures].[PricePurchase]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="5a0ecef0-2f21-4c19-8aa1-61e9dc54b705">
+              <Language>1045</Language>
+              <Caption>CenaZakupu</Caption>
             </Translation>
           </Translations>
         </CalculationProperty>

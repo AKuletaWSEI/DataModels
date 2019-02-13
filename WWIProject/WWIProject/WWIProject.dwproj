@@ -32,10 +32,6 @@
       <FullPath>DimDate.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DimEmployee.dim</Name>
-      <FullPath>DimEmployee.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>DimStockItem.dim</Name>
       <FullPath>DimStockItem.dim</FullPath>
     </ProjectItem>
