@@ -80,7 +80,7 @@ GO
 CREATE VIEW [olap].[vDimDate]
 AS
 SELECT 
-	[Date]
+	[Date]					AS [Day]
 ,	[Month]	= DATEFROMPARTS(YEAR([Date]), MONTH([Date]), 1)
 ,	[Year]	= DATEFROMPARTS(YEAR([Date]), 1, 1)
 ,	[Day Number]			AS	[DayNumber]

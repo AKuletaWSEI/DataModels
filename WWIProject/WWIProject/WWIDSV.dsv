@@ -1,6 +1,6 @@
 ﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="579532e3-6b28-4b15-b6d5-70b9cbb04b53" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>WideWorldImportersDSV</ID>
-  <Name>WideWorldImportersDSV</Name>
+  <Name>WWIDSV</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -27,7 +27,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="3368" scrolltop="4985" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="18203" y="10707" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="21" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15937" scrolltop="-7068" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="14005" y="14605" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01ee0000900180380100065461686f6d61" />
                   </font>
@@ -38,9 +38,9 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCity" left="6313" top="9975" logicalid="21" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCity" left="4282" top="8830" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a40f0000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000a40f0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -49,9 +49,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCustomer" left="0" top="8575" logicalid="22" controlid="2" masterid="0" hint1="0" hint2="0" width="3052" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimCustomer" left="-1346" top="2779" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3052" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000ec0b0000e20c0000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000ec0b0000e20c0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -60,9 +60,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="17315" top="20498" logicalid="23" controlid="3" masterid="0" hint1="0" hint2="0" width="3510" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="-14718" top="2593" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3510" height="3298" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000b60d0000e20c0000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000b60d0000e20c0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -71,9 +71,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStockItem" left="22617" top="12369" logicalid="24" controlid="4" masterid="0" hint1="0" hint2="0" width="4427" height="5376" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStockItem" left="-8349" top="8160" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4427" height="5573" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e00004b11000000150000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004b110000c5150000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -82,9 +82,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactOrder" left="6111" top="16379" logicalid="25" controlid="5" masterid="0" hint1="0" hint2="0" width="3404" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactOrder" left="-1522" top="8477" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3404" height="4710" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e00004c0d000088130000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004c0d000066120000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -93,9 +93,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactPurchase" left="23225" top="20145" logicalid="26" controlid="6" masterid="0" hint1="0" hint2="0" width="3210" height="4004" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactPurchase" left="-15176" top="8291" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="4427" height="5311" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e00008a0c0000a40f0000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004b110000bf140000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -104,9 +104,9 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="11818" top="0" logicalid="27" controlid="7" masterid="0" hint1="0" hint2="0" width="3545" height="5682" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactSale" left="-5649" top="-5036" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3404" height="5229" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e0000d90d000032160000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000c00004c0d00006d140000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -115,10 +115,21 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9215" top="20779" logicalid="28" controlid="8" masterid="0" hint1="0" hint2="0" width="8400" height="1218" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimSupplier" left="-14683" top="16002" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3440" height="3070" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000c0000700d0000fe0b0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="olap_vDimSupplier" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-11508" top="3843" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="10286" height="6189" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -128,17 +139,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="16" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="17315" y="21597" />
-                    <point x="13415" y="21597" />
-                    <point x="13415" y="21079" />
-                    <point x="9515" y="21079" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-11208" y="4242" />
+                    <point x="-6365" y="4242" />
+                    <point x="-6365" y="9732" />
+                    <point x="-1522" y="9732" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="2227" top="11374" logicalid="29" controlid="9" masterid="0" hint1="0" hint2="0" width="4786" height="5305" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-219" top="5578" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -148,17 +159,15 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="9" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="2626" y="11873" />
-                    <point x="2626" y="14126" />
-                    <point x="6713" y="14126" />
-                    <point x="6713" y="16379" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="180" y="6077" />
+                    <point x="180" y="8477" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9215" top="14658" logicalid="30" controlid="10" masterid="0" hint1="0" hint2="0" width="13702" height="3971" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-4222" top="10547" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="1135" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -168,17 +177,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="22" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="22617" y="15057" />
-                    <point x="16066" y="15057" />
-                    <point x="16066" y="18329" />
-                    <point x="9515" y="18329" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="23" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-3922" y="10946" />
+                    <point x="-2722" y="10946" />
+                    <point x="-2722" y="11382" />
+                    <point x="-1522" y="11382" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="20525" top="21748" logicalid="31" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-13362" top="5392" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -188,26 +197,15 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="19" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="20825" y="22147" />
-                    <point x="23225" y="22147" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="7" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-12963" y="5891" />
+                    <point x="-12963" y="8291" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimSupplier" left="23137" top="26549" logicalid="32" controlid="12" masterid="0" hint1="0" hint2="0" width="3387" height="3128" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e00003b0d0000380c0000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="olap_vDimSupplier" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="24431" top="23849" logicalid="33" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-13362" top="13302" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -217,15 +215,15 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="6" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="24830" y="26549" />
-                    <point x="24830" y="24149" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="6" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-12963" y="16002" />
+                    <point x="-12963" y="13602" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="24431" top="17246" logicalid="34" controlid="14" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-11049" top="10547" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -235,15 +233,15 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="7" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="24830" y="17745" />
-                    <point x="24830" y="20145" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="22" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-8349" y="10946" />
+                    <point x="-10749" y="10946" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14390" top="5382" logicalid="35" controlid="15" masterid="0" hint1="0" hint2="0" width="3980" height="15616" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-11508" top="-522" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="6159" height="4614" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -253,17 +251,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="2" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="17970" y="20498" />
-                    <point x="17970" y="13090" />
-                    <point x="14690" y="13090" />
-                    <point x="14690" y="5682" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="17" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-11208" y="3692" />
+                    <point x="-8429" y="3692" />
+                    <point x="-8429" y="-222" />
+                    <point x="-5649" y="-222" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="2752" top="4741" logicalid="36" controlid="16" masterid="0" hint1="0" hint2="0" width="9366" height="5333" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3147" top="-107" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3727" height="3386" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -273,17 +271,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="13" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="3052" y="9674" />
-                    <point x="7435" y="9674" />
-                    <point x="7435" y="5041" />
-                    <point x="11818" y="5041" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="180" y="2779" />
+                    <point x="180" y="1486" />
+                    <point x="-2847" y="1486" />
+                    <point x="-2847" y="193" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14940" top="5382" logicalid="37" controlid="17" masterid="0" hint1="0" hint2="0" width="10290" height="7487" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-6535" top="-107" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="2888" height="8767" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -293,17 +291,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="6" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="24830" y="12369" />
-                    <point x="24830" y="9026" />
-                    <point x="15240" y="9026" />
-                    <point x="15240" y="5682" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="7" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-6136" y="8160" />
+                    <point x="-6136" y="4177" />
+                    <point x="-3947" y="4177" />
+                    <point x="-3947" y="193" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="13840" top="5382" logicalid="38" controlid="18" masterid="0" hint1="0" hint2="0" width="3980" height="15616" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-11508" top="-1072" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="6159" height="4614" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -313,17 +311,17 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="0" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="17420" y="20498" />
-                    <point x="17420" y="13090" />
-                    <point x="14140" y="13090" />
-                    <point x="14140" y="5682" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="7" sourceattachpoint="15" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-11208" y="3142" />
+                    <point x="-8429" y="3142" />
+                    <point x="-8429" y="-772" />
+                    <point x="-5649" y="-772" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7414" top="13480" logicalid="39" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="1582" top="10433" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -333,15 +331,15 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="7813" y="13979" />
-                    <point x="7813" y="16379" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="16" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="4282" y="10832" />
+                    <point x="1882" y="10832" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7414" top="5382" logicalid="40" controlid="20" masterid="0" hint1="0" hint2="0" width="4826" height="5093" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-3697" top="-107" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="9879" height="9437" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -351,19 +349,19 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="7813" y="9975" />
-                    <point x="7813" y="7829" />
-                    <point x="11940" y="7829" />
-                    <point x="11940" y="5682" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="7" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="5782" y="8830" />
+                    <point x="5782" y="4512" />
+                    <point x="-3397" y="4512" />
+                    <point x="-3397" y="193" />
                   </connector>
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>3368</DiagramViewPortLeft>
-            <DiagramViewPortTop>4985</DiagramViewPortTop>
+            <DiagramViewPortLeft>-15937</DiagramViewPortLeft>
+            <DiagramViewPortTop>-7068</DiagramViewPortTop>
             <DiagramBoundingLeft>0</DiagramBoundingLeft>
             <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>75</DiagramZoom>
@@ -618,10 +616,10 @@
                   </xs:element>
                   <xs:element name="IsOrderFinalized" msprop:design-time-name="72167b1c-93c1-4474-b6bc-07b29ec7922a" msprop:DbColumnName="IsOrderFinalized" msprop:FriendlyName="IsOrderFinalized" type="xs:boolean" />
                   <xs:element name="ReceivedOuters" msprop:design-time-name="f6fb56d9-3e27-4b18-84c7-8d269714a717" msprop:DbColumnName="ReceivedOuters" type="xs:int" minOccurs="0" />
-                  <xs:element name="TaxRate" msprop:DbColumnName="TaxRate" msprop:design-time-name="95a56276-2181-428e-9b89-885c2006f8cc" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="UnitPrice" msprop:DbColumnName="UnitPrice" msprop:design-time-name="bdea6416-430d-4fd9-8c77-c675ceac9137" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="RecommendedRetailPrice" msprop:DbColumnName="RecommendedRetailPrice" msprop:design-time-name="c1b7da75-db02-49ca-87ce-ea20fd6263c1" type="xs:decimal" minOccurs="0" />
-                  <xs:element name="TypicalWeightPerUnit" msprop:DbColumnName="TypicalWeightPerUnit" msprop:design-time-name="e142e8a2-2c64-4fd2-b0c8-bd5cd6aa32c5" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TaxRate" msprop:design-time-name="95a56276-2181-428e-9b89-885c2006f8cc" msprop:DbColumnName="TaxRate" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="UnitPrice" msprop:design-time-name="bdea6416-430d-4fd9-8c77-c675ceac9137" msprop:DbColumnName="UnitPrice" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="RecommendedRetailPrice" msprop:design-time-name="c1b7da75-db02-49ca-87ce-ea20fd6263c1" msprop:DbColumnName="RecommendedRetailPrice" type="xs:decimal" minOccurs="0" />
+                  <xs:element name="TypicalWeightPerUnit" msprop:design-time-name="e142e8a2-2c64-4fd2-b0c8-bd5cd6aa32c5" msprop:DbColumnName="TypicalWeightPerUnit" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
